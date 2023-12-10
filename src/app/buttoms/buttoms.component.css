@@ -1,0 +1,9 @@
+.buttoms {
+    height: 8%;
+    display: flex;
+    background-color: rgba(255, 253, 253, 0.521);
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 0px 0px 10px 10px;
+
+}

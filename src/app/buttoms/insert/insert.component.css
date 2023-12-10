@@ -1,0 +1,76 @@
+.insert {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid aliceblue;
+    box-shadow: 0px 0px 2px 2px rgb(177, 181, 184);
+    color: rgba(165, 42, 42, 0.61);
+    transition: scale .2s linear;
+}
+
+/* @media (min-width:) and (max-width:) {} */
+
+@media (min-width:100px) and (max-width:300px) {
+
+
+    .insert {
+        width: 5px;
+        height: 5px;
+    }
+}
+
+@media (min-width:300px) and (max-width:400px) {
+
+
+    .insert {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media (min-width:400px) and (max-width:600px) {
+
+
+    .insert {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media (min-width:1300px) and (max-width:1800px) {
+
+
+    .insert {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (min-width:1800px) {
+
+
+    .insert {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@keyframes shadow {
+
+    0% {
+        box-shadow: 0px 0px 1px 1px rgb(167, 165, 165);
+    }
+
+    100% {
+        box-shadow: 0px 0px 3px 3px gray;
+    }
+}
+
+
+.insert:hover {
+    cursor: pointer;
+    scale: 1.2;
+    animation: shadow 0.5s linear;
+    box-shadow: 0px 0px 3px 3px gray;
+}
